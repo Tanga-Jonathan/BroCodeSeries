@@ -1,7 +1,11 @@
-import Header from "./Header.tsx";
+import styles from "./app.css";
 
-function App() {
-  return <Header />;
+import Card from "./Card.tsx";
+
+export default function App() {
+  return (
+    <>
+      <Card />
+    </>
+  );
 }
-
-export default App;
